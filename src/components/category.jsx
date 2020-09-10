@@ -10,7 +10,7 @@ class Category extends Component {
           type="button"
           className={
             this.props.selectedType === item.type
-              ? "btn btn-danger text-white"
+              ? "btn btn-success text-white"
               : "btn"
           }
           style={{

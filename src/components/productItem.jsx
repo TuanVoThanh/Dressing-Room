@@ -11,10 +11,9 @@ class ProductItem extends Component {
           <h6 className="card-title">{name}</h6>
           <button
             onClick={() => this._selectedItem(this.props.product)}
-            className="btn btn-sm"
+            className="btn btn-success btn-sm"
             style={{
               boxShadow: "none",
-              backgroundColor: "pink",
               fontWeight: "600",
             }}
           >
